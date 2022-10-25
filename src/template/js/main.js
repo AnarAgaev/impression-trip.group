@@ -23,14 +23,14 @@ const screenSliderParams = {
     slidesPerGroup: 1,
 
     // Navigation by hash
-    hashNavigation: {
-        watchState: true
-    },
+    // hashNavigation: {
+    //     watchState: true
+    // },
 
     // Pagination
     pagination: {
         el: '.screens__pagination',
-        clickable: false
+        clickable: true
     },
     
     // Enable/Disable touchable scroll on desktop
