@@ -1,0 +1,14 @@
+:root {
+    // Colors
+    --color-font-primary: #333;
+    --color-font-lite: #777;
+
+
+    --color-background: #ffffff;
+    --color-accent: #04bfae;
+    --color-background-accent: rgba(4, 191, 174, 0.7);
+
+    // Timing functions
+    --tf: cubic-bezier(0.22, 1, 0.36, 1);
+    --screen-slider-tf: cubic-bezier(0.85, 0, 0.15, 1);
+}

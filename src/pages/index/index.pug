@@ -1,0 +1,21 @@
+//- Include used template for this page
+extends ../../template/template
+
+//- Variables for include this in used template
+block variables
+    - let title       = 'IMPRESSION TRIP'
+    - let description = 'Write description for this page here'
+    - let keywords    = 'Write keywords for this page here'
+
+block content
+    .swiper.screens#screensSlider
+        .swiper-wrapper.screens__wrapper
+            // Screens
+            .swiper-slide.screens__slide(data-hash="cover")
+                include component/screen-1/index
+            .swiper-slide.screens__slide(data-hash="page-2")
+                include component/screen-2/index
+            .swiper-slide.screens__slide(data-hash="page-3")
+                include component/screen-3/index
+
+        .swiper-pagination.screens__pagination
